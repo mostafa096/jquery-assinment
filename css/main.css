@@ -1,0 +1,43 @@
+.offcanvas a {
+  transition: color 0.3s;
+}
+
+.offcanvas a:hover {
+  color: #0d6efd !important;
+}
+
+#home {
+  background-image: url(/imgs/pexels-vishnu-r-nair-1105666.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.3);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h1 + p {
+font-size: 2rem;
+}
+
+#singrs h3 {
+    cursor: pointer;
+}
+
+#singrs p {
+    display:none;
+}
+
+#joinUs ul li {
+  width: 50px;
+  height: 50px;
+}

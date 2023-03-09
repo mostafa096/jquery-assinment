@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg py-3 fixed-top bg-transparent">
+      <div class="container">
+        <a
+          class="btn"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasScrolling"
+          aria-controls="offcanvasScrolling"
+        >
+          <i class="fa-solid fa-bars fa-2xl text-white"></i>
+        </a>
+      </div>
+    </nav>
+    <!-- offcanvas menue -->
+    <div
+      class="offcanvas offcanvas-start"
+      data-bs-scroll="true"
+      data-bs-backdrop="false"
+      tabindex="-1"
+      id="offcanvasScrolling"
+      aria-labelledby="offcanvasScrollingLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel"></h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="list-unstyled">
+          <li class="mb-3">
+            <a class="fs-2 text-decoration-none text-dark" href="#home">Home</a>
+          </li>
+          <li class="mb-3">
+            <a class="fs-2 text-decoration-none text-dark" href="#home"
+              >Duration</a
+            >
+          </li>
+          <li class="mb-3">
+            <a class="fs-2 text-decoration-none text-dark" href="#home"
+              >Details</a
+            >
+          </li>
+          <li class="mb-3">
+            <a class="fs-2 text-decoration-none text-dark" href="#home"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section id="home" class="vh-100 position-relative">
+      <div class="overlay"></div>
+      <div
+        class="container text-white position-relative z-2 h-100 d-flex justify-content-center align-items-center flex-column"
+      >
+        <h1>Egyption Party</h1>
+        <p>Let's have Fun</p>
+      </div>
+    </section>
+    <section id="singrs" class="w-50 mx-auto text-center my-5 py-5">
+      <h3 class="bg-primary p-3 text-white m-0">Singer one</h3>
+      <p class="bg-body-secondary text-black p-3 m-0">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum."
+      </p>
+      <h3 class="bg-primary p-3 text-white m-0">Singer two</h3>
+      <p class="bg-body-secondary text-black p-3 m-0">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum."
+      </p>
+      <h3 class="bg-primary p-3 text-white m-0">Singer three</h3>
+      <p class="bg-body-secondary text-black p-3 m-0">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum."
+      </p>
+      <h3 class="bg-primary p-3 text-white m-0">Singer four</h3>
+      <p class="bg-body-secondary text-black p-3 m-0">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum."
+      </p>
+    </section>
+    <!-- counter -->
+
+    <section id="counter" class="bg-primary p-3 text-white py-5 my-5">
+      <div class="container">
+        <div class="row text-center p-5 fs-1">
+          <div id="days" class="col-3"></div>
+          <div id="hours" class="col-3"></div>
+          <div id="mins" class="col-3"></div>
+          <div id="secs" class="col-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="joinUs">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h3 class="fs-1 fw-bold">JOIN US</h3>
+            <p class="fs-5 my-3 text-muted">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            </p>
+            <h4 class="fs-4 fw-bold">CONTACT INFO</h4>
+            <p class="fs-5 text-muted mb-5 mt-3">
+              Why you should hire me writeup Lorem ipsum dolor sit amet,
+              consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+              Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+            </p>
+
+            <div class="mb-4">
+              <i class="fa-solid fa-location-dot fs-5"></i>
+              <span class="ms-3 fs-5 text-muted">
+                New Street 22545, Nexa Road, New York City, USA
+              </span>
+            </div>
+            <div class="mb-4">
+              <i class="fa-solid fa-envelope fs-5"></i
+              ><span class="ms-3 fs-5 text-muted"> hello@uigrid.com </span>
+            </div>
+            <div class="mb-4">
+              <i class="fa-solid fa-phone fs-5"></i
+              ><span class="ms-3 fs-5 text-muted"> 001-000-000-000 </span>
+            </div>
+            <ul class="list-unstyled d-flex">
+              <li
+                class="p-3 border border-3 mx-1 d-flex justify-content-center align-content-center"
+              >
+                <a class="" href="#"
+                  ><i class="fa-brands fa-facebook-f fs-4"></i
+                ></a>
+              </li>
+              <li
+                class="p-3 border border-3 mx-1 d-flex justify-content-center align-content-center"
+              >
+                <a class="" href="#"
+                  ><i class="fa-brands fa-twitter fs-4"></i
+                ></a>
+              </li>
+              <li
+                class="p-3 border border-3 mx-1 d-flex justify-content-center align-content-center"
+              >
+                <a class="" href="#"
+                  ><i class="fa-brands fa-google-plus-g fs-4"></i
+                ></a>
+              </li>
+              <li
+                class="p-3 border border-3 mx-1 d-flex justify-content-center align-content-center"
+              >
+                <a class="" href="#"
+                  ><i class="fa-brands fa-github fs-4"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 pt-5">
+            <form>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  id="name"
+                  placeholder="Enter Name"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  id="email"
+                  placeholder="Enter Email"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control form-control-lg"
+                  placeholder="Enter Massage"
+                  id="textArea"
+                  rows="8"
+                ></textarea>
+              </div>
+              <div class=" fs-5 fw-semibold mb-4"><span id="countDown" class="text-primary">100</span> Character Reamining</div>
+              <button class="btn btn-outline-primary p-3 fs-6" type="submit">Send Massage</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/Jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
